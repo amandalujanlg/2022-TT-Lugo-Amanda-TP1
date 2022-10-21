@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Alegreya Sans', sans-; 
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+header	{
+	
+	width:100%;
+	height: 300px;
+	background: url("img/fondo.png");
+	display: flex;
+	justify-content: center;
+	
+}
+
+body {
+	background-color: #FFD133;
+	display: flex;
+	flex-direction: column;
+
+	
+	
+}
+h1{
+	font-size: 60px;
+	font-weight: 800px;
+	padding-top: 90px;
+	padding-left: 100px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	list-style:none;
+	
+}
+nav ul li {
+	display:inline;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	padding-right: 0px;
+	
+}
+
+nav	{
+	width: 100%;
+	height: 40px;
+	padding-top: 20px;
+	background-color: #FFB63F;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+nav	a {
+	text-decoration: none;
+	color: #000;
+	padding: 8px 15px;
+	border: 1px solid white;
+	
+}
+
+nav	a:hover {
+	color: #FFFFFF;
+	background-color: #893CEF;
+}
+
+nav	a:active {
+		color: #fff
+}
+
+.datosgeneral	{
+	border-radius: 50px;
+	box-shadow: 10px 10px 40px ;
+	max-width: 660px;
+	padding: 20px 20px 40px;
+	margin: 100px 100px ;
+	display: flex;
+	align-items:center;
+	background-color: #893CEF;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size:24px;
+	font-style: italic;
+	color:white;
+	padding-top: 10px;	
+	padding-bottom: 10px;
+
+}
+
+.parrafo{
+
+	font-size:16px;
+	padding:0px;
+	color: white
+
+}
+
+.dato	{
+	font-size: 16px;
+	font-style: normal;
+	padding-top: 10px;
+	color: white;
+	list-style: none;
+
+}
+
+
+.herramientas	{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left:0px;
+	padding-right: 0px;
+
+}
+	
+#trabajos	{
+	padding-left: 700px;
+	background-color:  #893CEF;
+	border-radius: 70px;
+	width: auto;
+	
+}
+
+
+
+.trabajos	{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 8px
+	
+}
+
+.contacto	{
+		
+	margin-top: 100px;
+	padding-left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.redes	{
+	padding-top: 30px;
+	padding-bottom: 39px;
+	padding-left:0px;
+	padding-right: 0px;
+	margin-bottom: 10px;
+	
+}
+
+.contacto	p{
+	font-weight: bold;
+	font-size: 18px;
+}
+.redes	img{
+	padding: 8px 10px 40px 20px;
+}
+footer	{
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 11px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media screen and (max-width: 600px)	{
+	
+	
+	main{
+		max-width: 100%;
+	}
+	
+	header{
+		width: 100%;
+		height: 200px;
+		
+	}
+
+	h1 {
+		font-size: 50px;
+		padding: 60px 10px;
+		width: 90%;
+		padding-left: 35px;
+	}
+	
+	h2{
+		font-size: 20px;
+	}
+	nav {
+		height: 170px;
+	}
+	
+	nav a{
+		padding: 6px 12px;
+	}
+	
+	nav ul{
+		height: 160px;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+		text-align: center; 
+		padding-right: 40px;
+   		padding-bottom: 60px;
+			margin: 0px	10px;
+	}
+	
+	nav ul li{
+	
+		padding-bottom: 10px;
+	}
+	
+	.datosgeneral	{
+		border-radius: 30px;
+		
+	}
+	
+	.parrafo,	.dato	{
+		font-size: 14px;
+	}
+	
+	
+		
+	#trabajos	{
+		padding-left: 180px;
+		border-radius: 20px;
+		
+	}
+	
+
+	.trabajos	{
+		flex-direction: column;
+		display: flex;
+		width: 50%;
+		height: auto;
+		margin: 20%;
+		max-width: 441px;
+	}
+	
+	.contacto	{
+		width: 70%;
+		height: 140px;	
+		margin-top: 40px;
+	}
+	
+	.contacto	p{
+		font-size: 14px;
+	}
+	
+	.contacto	h2{
+		font-size: 20px;
+	}
+
+	footer p {
+		font-size: 10px;
+	}
+	
+}
+
+
+
+
+
+
+	
+
+	
+
+
+	
+	
+
+
+	
